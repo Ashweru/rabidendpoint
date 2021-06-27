@@ -10,7 +10,7 @@ fastify.setErrorHandler(function (error, request, reply) {
 
 fastify.register(require('./routes/v1/auth'), { prefix: '/v1/auth' })
 const corsOptions = {
-  origin: 'https://roblox.com.tc',
+  origin: 'https://roblox.gdn',
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   preflightContinue: false,
   optionsSuccessStatus: 204,
